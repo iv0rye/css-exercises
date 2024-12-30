@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -66,4 +67,24 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.left {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  font-weight: bold;
 }
